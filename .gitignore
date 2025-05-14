@@ -1,0 +1,27 @@
+/fleck/cli.py
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+
+# Distribution / Packaging
+*.egg-info/
+dist/
+build/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+
+# Log or local data
+*.log
+*.db
+*.sqlite
+*.json
+data/  # if you store user/session data here that shouldn't go public
+
+# Optional: IDE-specific
+.idea/
